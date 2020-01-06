@@ -27,3 +27,19 @@
     #465298 20px
   );
 }
+
+.menu-bar :first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-bar :last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-bar :first-child p {
+  font-size: 25px;
+}
