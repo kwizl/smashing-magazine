@@ -1,0 +1,31 @@
+.article-container {
+    display: grid;
+    grid-template-rows: repeat(2, 300px);
+    grid-template-columns: 1fr 1fr;
+    background-color: brown;
+}
+
+.article-container > article {
+    border: 1px solid black;
+}
+
+.article-container > article h1 {
+    text-align: center;
+    position: relative;
+    top: 8rem;
+    font-size: 2rem;
+}
+
+main {
+    position: relative;
+}
+
+.article-latest {
+    width: 25%;
+    position: absolute;
+    top: 5rem;
+    margin-left: calc((100% - 25%) / 2);
+    background-color: white;
+    text-align: center;
+    font-size: 1rem;
+}
