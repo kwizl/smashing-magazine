@@ -1,0 +1,109 @@
+.article-second {
+  width: auto;
+  display: grid;
+  grid-auto-flow: row;
+  grid-auto-rows: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  justify-content: center;
+  align-content: center;
+}
+
+.article-second article {
+  margin: 5px;
+  font-size: 1rem;
+}
+
+.sign-in-container {
+  display: grid;
+  grid-template-rows: 30rem;
+  grid-template-columns: 70% 20%;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.sign-in-div {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-div p {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.sign-in-article > h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.tv-div {
+  height: 90vh;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96%;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+.tv-div p {
+  font-size: 3rem;
+}
+
+.tv-articles {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tv-articles > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.smashing-tv > article {
+  height: 120vh;
+  background-color: rgb(57, 57, 250);
+  text-align: center;
+}
+
+.smashing-tv > article a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.smashing-tv > article h1 {
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.smashing-tv > article button {
+  background-color: white;
+  padding: 0.7rem;
+  color: rgb(57, 57, 250);
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+
+.person-of-the-week {
+  display: grid;
+  grid-template-rows: 20rem;
+  grid-template-columns: 1fr 3fr;
+}
+
+.person-of-the-week .image, .person-of-the-week .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  border: 1px solid black;
+}
