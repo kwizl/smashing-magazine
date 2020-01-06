@@ -9,4 +9,6 @@
 body {
   font-size: 62.5%;
   box-sizing: border-box;
+  min-width: 570px;
+  background-color: rgb(238, 238, 238);
 }

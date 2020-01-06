@@ -1,0 +1,29 @@
+.menu-bar {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 0 5px;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  height: 150px;
+}
+
+.menu-bar > div {
+  border: 1px solid rgb(255, 255, 255);
+  height: inherit;
+}
+
+.menu-bar span {
+  display: inline-block;
+  overflow: hidden;
+  height: inherit;
+  margin-right: 5px;
+}
+
+.box {
+  background: repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
+}
