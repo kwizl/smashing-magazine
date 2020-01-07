@@ -4,6 +4,7 @@
   grid-gap: 0 5px;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   height: 150px;
+  color: white;
 }
 
 .menu-bar > div {
@@ -21,10 +22,10 @@
 .box {
   background: repeating-linear-gradient(
     45deg,
-    #606dbc,
-    #606dbc 10px,
-    #465298 10px,
-    #465298 20px
+    #525252,
+    #525252 10px,
+    #383838 10px,
+    #383838 20px
   );
 }
 

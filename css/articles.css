@@ -22,7 +22,7 @@
 }
 
 .sign-in-div {
-  background-color: brown;
+  background-color: lightgray;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@
 
 .tv-div {
   height: 90vh;
-  background-color: brown;
+  background-color: lightgray;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,13 +65,13 @@
   text-decoration: none;
   color: black;
   font-size: 1rem;
-  border-bottom: 4px solid brown;
+  border-bottom: 4px solid lightgray;
   padding-bottom: 10px;
 }
 
 .smashing-tv > article {
   height: 120vh;
-  background-color: rgb(57, 57, 250);
+  background-color: lightgray;
   text-align: center;
 }
 
@@ -87,10 +87,11 @@
   margin-bottom: 4rem;
 }
 
-.smashing-tv > article button {
+.smashing-tv > article button,
+.feature-smashing > button {
   background-color: white;
   padding: 0.7rem;
-  color: rgb(57, 57, 250);
+  color: lightgray;
   border: none;
   border-radius: 3px;
   font-size: 1.5rem;
@@ -113,10 +114,12 @@
 
 .more-articles {
   display: grid;
-  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 5vw;
   justify-content: center;
   margin-top: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .more-articles > div {
@@ -138,4 +141,38 @@
   width: 50px;
   height: 50px;
   border: 1px dashed black;
+}
+
+.feature-smashing {
+  height: 400px;
+  background-color: lightgray;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+.feature-smashing > h4 {
+  padding-top: 20px;
+}
+
+.position {
+  position: relative;
+  bottom: -250px;
+}
+
+.curated-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) minmax(300px, 1fr);
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.curated-posts > article {
+  height: 300px;
+  border: 1px dashed black;
+}
+
+.curated-posts > :last-child {
+  width: 100%;
+  grid-column-end: -1;
+  grid-column-start: 1;
 }
