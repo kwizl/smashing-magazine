@@ -2,6 +2,10 @@ footer {
   background-color: rgb(163, 163, 163);
 }
 
+.footer-container {
+  padding-top: 5rem;
+}
+
 .footer-container > ul {
   text-align: center;
   line-height: 2rem;
