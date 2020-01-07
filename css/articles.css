@@ -1,0 +1,187 @@
+.article-second {
+  width: auto;
+  display: grid;
+  grid-auto-flow: row;
+  grid-auto-rows: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  justify-content: center;
+  align-content: center;
+}
+
+.article-second article {
+  margin: 5px;
+  font-size: 1rem;
+}
+
+.sign-in-container {
+  display: grid;
+  grid-template-rows: 30rem;
+  grid-template-columns: 70% 20%;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.sign-in-div {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-div p {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.sign-in-article > h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.tv-div {
+  height: 90vh;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96%;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+.tv-div p {
+  font-size: 3rem;
+}
+
+.tv-articles {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tv-articles > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  border-bottom: 4px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.smashing-tv > article {
+  height: 120vh;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.smashing-tv > article a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.smashing-tv > article h1 {
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.feature-smashing > button,
+.smashing-tv > article button {
+  background-color: white;
+  padding: 0.7rem;
+  color: lightgray;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+
+.person-of-the-week {
+  display: grid;
+  grid-template-rows: 20rem;
+  grid-template-columns: 1fr 3fr;
+}
+
+.person-of-the-week .image,
+.person-of-the-week .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  border: 1px solid black;
+}
+
+.curated-posts > article {
+  height: 300px;
+  border: 1px dashed black;
+}
+
+.more-articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 5vw;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 20px auto 0 auto;
+}
+
+.more-articles > div {
+  height: 200px;
+  display: flex;
+}
+
+.more-articles > div > div {
+  flex: 0.2;
+}
+
+.more-articles > div > article {
+  flex: 1;
+  margin-left: 5px;
+  font-size: calc(10px + 0.5vw);
+}
+
+.boxsize {
+  width: 50px;
+  height: 50px;
+  border: 1px dashed black;
+}
+
+.feature-smashing {
+  height: 400px;
+  background-color: lightgray;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+.feature-smashing > h4 {
+  padding-top: 20px;
+}
+
+.position {
+  position: relative;
+  bottom: -250px;
+}
+
+.curated-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) minmax(300px, 1fr);
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.curated-posts > :last-child {
+  grid-column-end: -1;
+  grid-column-start: 1;
+  background-color: gray;
+}
+
+@media only screen and (max-width: 1194px) and (min-width: 900px) {
+  .curated-posts > :last-child {
+    grid-column-start: 2;
+  }
+}
+
+.curated-posts article ul {
+  padding-left: 2rem;
+}

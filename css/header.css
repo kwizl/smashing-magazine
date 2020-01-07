@@ -1,0 +1,47 @@
+.menu-bar {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 0 5px;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  height: 150px;
+  color: white;
+}
+
+.menu-bar > div {
+  border: 1px solid rgb(255, 255, 255);
+  height: inherit;
+}
+
+.menu-bar span {
+  display: inline-block;
+  overflow: hidden;
+  height: inherit;
+  margin-right: 5px;
+}
+
+.box {
+  background:
+    repeating-linear-gradient(
+      45deg,
+      #525252,
+      #525252 10px,
+      #383838 10px,
+      #383838 20px
+    );
+}
+
+.menu-bar :first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-bar :last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-bar :first-child p {
+  font-size: 25px;
+}

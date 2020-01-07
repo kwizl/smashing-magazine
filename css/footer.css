@@ -1,0 +1,46 @@
+footer {
+  background-color: rgb(163, 163, 163);
+}
+
+.footer-container {
+  padding-top: 5rem;
+}
+
+.footer-container > ul {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.footer-container > ul li {
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.footer-container ul > li::before {
+  content: "•";
+  margin-right: 0.5em;
+}
+
+.footer-container > div {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  border-bottom: 2px solid black;
+  margin: 0 5px;
+}
+
+.fixed-btn {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 2rem;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
