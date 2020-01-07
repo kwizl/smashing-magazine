@@ -16,8 +16,9 @@ footer {
   font-size: 1.2rem;
 }
 
-.footer-container ul > li:before { 
-  content:'•'; margin-right:0.5em; 
+.footer-container ul > li::before {
+  content: "•";
+  margin-right: 0.5em;
 }
 
 .footer-container > div {

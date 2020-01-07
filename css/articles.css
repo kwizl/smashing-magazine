@@ -34,7 +34,7 @@
   margin-bottom: 5rem;
 }
 
-.sign-in-article > h2 {
+.sign-in-article > h1 {
   font-size: 2rem;
   text-align: center;
 }
@@ -82,13 +82,13 @@
   color: white;
 }
 
-.smashing-tv > article h2 {
+.smashing-tv > article h1 {
   padding-top: 4rem;
   margin-bottom: 4rem;
 }
 
-.smashing-tv > article button,
-.feature-smashing > button {
+.feature-smashing > button,
+.smashing-tv > article button {
   background-color: white;
   padding: 0.7rem;
   color: lightgray;
@@ -112,14 +112,18 @@
   border: 1px solid black;
 }
 
+.curated-posts > article {
+  height: 300px;
+  border: 1px dashed black;
+}
+
 .more-articles {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 5vw;
   justify-content: center;
-  margin-top: 20px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
 }
 
 .more-articles > div {
@@ -166,23 +170,7 @@
   margin: 0 auto;
 }
 
-.curated-posts > article {
-  height: 300px;
-  border: 1px dashed black;
-}
-
 .curated-posts > :last-child {
-  width: 100%;
   grid-column-end: -1;
   grid-column-start: 1;
-  background-color: rgb(156, 156, 156);
-}
-
-@media only screen and (max-width: 1194px) and (min-width: 900px) {
-  .curated-posts > :last-child {
-    grid-column-start: 2;
-  }
-} 
-.curated-posts article ul {
-  padding-left: 2rem;
 }
