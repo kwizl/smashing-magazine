@@ -15,7 +15,7 @@ Project: DESIGN TEARDOWN
 
 ## Live Demo
 
-[Live Demo Link](https://mariancristu.github.io/New-York-Times-Clone/)
+[Live Demo Link](https://raw.githack.com/kwizl/smashing-magazine/complete-design/index.html)
 
 ## Getting Started
 
