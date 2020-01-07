@@ -173,4 +173,15 @@
 .curated-posts > :last-child {
   grid-column-end: -1;
   grid-column-start: 1;
+  background-color: gray;
+}
+
+@media only screen and (max-width: 1194px) and (min-width: 900px) {
+  .curated-posts > :last-child {
+    grid-column-start: 2;
+  }
+}
+
+.curated-posts article ul {
+  padding-left: 2rem;
 }
