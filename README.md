@@ -19,7 +19,7 @@ Project: DESIGN TEARDOWN
 
 ## Getting Started
 
-**Use browser of choise**
+**Use browser of choice**
 
 ## Authors
 
@@ -37,10 +37,6 @@ Project: DESIGN TEARDOWN
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/kwizl/smashing-magazine/issues).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
